@@ -1,12 +1,48 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import PainSection from "@/components/PainSection";
+import IdentificationSection from "@/components/IdentificationSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import WorkshopSection from "@/components/WorkshopSection";
+import TransformationSection from "@/components/TransformationSection";
+import SignsSection from "@/components/SignsSection";
+import ForWhomSection from "@/components/ForWhomSection";
+import EventDetailsSection from "@/components/EventDetailsSection";
+import InclusionsSection from "@/components/InclusionsSection";
+import PricingSection from "@/components/PricingSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import AboutSection from "@/components/AboutSection";
+import ScienceSection from "@/components/ScienceSection";
+import UrgencySection from "@/components/UrgencySection";
+import FaqSection from "@/components/FaqSection";
+import FinalCtaSection from "@/components/FinalCtaSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  const scrollRef = useScrollAnimation();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div ref={scrollRef} className="min-h-screen">
+      <Navbar />
+      <Hero />
+      <PainSection />
+      <IdentificationSection />
+      <BenefitsSection />
+      <WorkshopSection />
+      <TransformationSection />
+      <SignsSection />
+      <ForWhomSection />
+      <EventDetailsSection />
+      <InclusionsSection />
+      <PricingSection />
+      <TestimonialsSection />
+      <AboutSection />
+      <ScienceSection />
+      <UrgencySection />
+      <FaqSection />
+      <FinalCtaSection />
+      <Footer />
     </div>
   );
 };
