@@ -3,13 +3,13 @@ export default function ScienceSection() {
     <section className="section-dark py-20 md:py-28">
       <div className="container mx-auto px-4">
         <h2 className="fade-up font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-14 gold-text max-w-4xl mx-auto">
-          Tá, mas constelação funciona mesmo ou é misticismo?
+          Tá, mas Constelação funciona mesmo ou é misticismo?
         </h2>
 
         <div className="fade-up max-w-3xl mx-auto space-y-6">
           <div className="card-dark">
             <p className="font-body text-lg text-foreground/90 leading-relaxed">
-              Constelação Familiar é uma <strong className="gold-text">abordagem fenomenológica/sistêmica</strong>: ao organizar elementos do seu sistema (família/relacionamentos), ela ajuda a tornar visíveis padrões que você não enxerga apenas "pensando".
+              Constelação Familiar é uma <strong className="gold-text">abordagem fenomenológica</strong>: ao organizar elementos do seu sistema (família/relacionamentos), ela ajuda a tornar visíveis padrões que você não enxerga apenas "pensando".
             </p>
           </div>
 
