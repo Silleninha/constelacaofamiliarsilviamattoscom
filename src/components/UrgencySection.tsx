@@ -19,7 +19,7 @@ export default function UrgencySection() {
     <section className="section-cream py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="fade-up font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-14">
-          Se você não fizer nada...
+          Se você não fizer nada, vai continuar...
         </h2>
 
         <div className="fade-up space-y-3 mb-14">
