@@ -120,7 +120,7 @@
 
   .scroll-words {
     @apply whitespace-nowrap;
-    animation: scrollWords 30s linear infinite;
+    animation: scrollWords 10s linear infinite;
   }
 
   .card-hover {
