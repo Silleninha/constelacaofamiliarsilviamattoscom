@@ -6,7 +6,7 @@ const mainFaqs = [
   { q: "Preciso falar da minha história?", a: "Não necessariamente. A Constelação trabalha com o campo sistêmico, então muitas vezes o padrão se revela sem que você precise contar detalhes da sua vida." },
   { q: "Se eu for Constelada, meu casamento piora?", a: "A constelação não piora relações — ela revela o que já está ali. A partir dessa clareza, você pode fazer escolhas mais conscientes e saudáveis." },
   { q: "De quantas constelações eu preciso?", a: "Cada constelação é única. Muitas mulheres têm transformações profundas em uma única sessão. Outras sentem necessidade de aprofundar em encontros futuros. Não há regra fixa." },
-  { q: "Como sustento a mudança depois?", a: "Você receberá áudios de integração e fará parte da comunidade da Silvia Mattos, onde terá suporte contínuo e acesso a promoções de próximos encontros." },
+  { q: "O que devo fazer depois de ser Constelada?", a: "Não é necessário agir imediatamente após sua Constelação; permita que as percepções do trabalho reverberem naturalmente. Os efeitos variam para cada indivíduo, pois tanto a mente consciente quanto a Alma processam o que foi revelado. Ambas se mobilizam para acolher as transformações e iluminar os próximos passos práticos em direção à solução." },
 ];
 
 const practicalFaqs = [

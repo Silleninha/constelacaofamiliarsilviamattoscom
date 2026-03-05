@@ -10,7 +10,7 @@ export default function AboutSection() {
 
         <div className="fade-up flex flex-col md:flex-row gap-10 max-w-5xl mx-auto items-center">
           <div className="w-64 h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden shrink-0 shadow-2xl">
-            <img src={silviaPhoto} alt="Silvia Mattos - Facilitadora de Constelação Familiar" className="w-full h-full object-cover" />
+            <img src={silviaPhoto} alt="Silvia Mattos - Facilitadora de Constelação Familiar" className="w-full h-full object-cover object-top" />
           </div>
 
           <div>
