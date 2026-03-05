@@ -106,7 +106,7 @@
     left: -100%;
     width: 60%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, hsla(0, 0%, 100%, 0.35), transparent);
+    background: linear-gradient(90deg, transparent, hsla(0, 0%, 100%, 0.55), transparent);
     animation: ctaShimmer 2.5s ease-in-out infinite;
     pointer-events: none;
   }
