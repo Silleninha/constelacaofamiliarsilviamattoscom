@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-forest-deep/60" />
 
       {/* Scrolling words */}
-      <div className="absolute bottom-20 left-0 right-0 overflow-hidden opacity-10 pointer-events-none">
+      <div className="absolute bottom-20 left-0 right-0 overflow-hidden opacity-[0.27] pointer-events-none">
         <div className="scroll-words text-6xl md:text-8xl font-serif font-bold gold-text">
           {words.repeat(4)}
         </div>
