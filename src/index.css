@@ -95,7 +95,19 @@
   .cta-button {
     background-color: hsl(var(--gold));
     color: hsl(var(--brown-dark));
-    @apply font-bold uppercase tracking-wider rounded-full px-8 py-4 text-base md:text-lg transition-all duration-300 hover:shadow-[0_0_30px_hsl(37,72%,47%,0.4)] hover:scale-105 cursor-pointer;
+    @apply font-bold uppercase tracking-wider rounded-full px-8 py-4 text-base md:text-lg transition-all duration-300 hover:shadow-[0_0_30px_hsl(37,72%,47%,0.4)] hover:scale-105 cursor-pointer relative overflow-hidden;
+  }
+
+  .cta-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, hsla(0, 0%, 100%, 0.35), transparent);
+    animation: ctaShimmer 2.5s ease-in-out infinite;
+    pointer-events: none;
   }
 
   .cta-button:hover {
