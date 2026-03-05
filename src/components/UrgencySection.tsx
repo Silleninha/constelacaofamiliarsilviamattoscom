@@ -19,7 +19,7 @@ export default function UrgencySection() {
     <section className="section-cream py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="fade-up font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-14">
-          Se você não fizer nada...
+          Se você não fizer nada, vai continuar...
         </h2>
 
         <div className="fade-up space-y-3 mb-14">
@@ -35,11 +35,11 @@ export default function UrgencySection() {
           <p className="font-serif text-2xl font-bold mb-8 terracotta-text">
             Mas se você der esse passo agora, pode ser o começo de uma fase onde:
           </p>
-          <div className="space-y-3">
+          <div className="space-y-5">
             {ifYouAct.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 p-2">
-                <span className="terracotta-text text-lg">●</span>
-                <p className="font-body text-lg font-bold">{item}</p>
+              <div key={i} className="flex items-start gap-4 p-4 card-cream border border-gold/30 rounded-xl">
+                <span className="gold-text text-2xl">✦</span>
+                <p className="font-body text-xl md:text-2xl font-bold">{item}</p>
               </div>
             ))}
           </div>

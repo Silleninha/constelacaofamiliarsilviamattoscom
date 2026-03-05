@@ -3,13 +3,13 @@ export default function ScienceSection() {
     <section className="section-dark py-20 md:py-28">
       <div className="container mx-auto px-4">
         <h2 className="fade-up font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-14 gold-text max-w-4xl mx-auto">
-          Tá, mas constelação funciona mesmo ou é misticismo?
+          Tá, mas Constelação funciona mesmo ou é misticismo?
         </h2>
 
         <div className="fade-up max-w-3xl mx-auto space-y-6">
           <div className="card-dark">
             <p className="font-body text-lg text-foreground/90 leading-relaxed">
-              Constelação Familiar é uma <strong className="gold-text">abordagem fenomenológica/sistêmica</strong>: ao organizar elementos do seu sistema (família/relacionamentos), ela ajuda a tornar visíveis padrões que você não enxerga apenas "pensando".
+              Constelação Familiar é uma <strong className="gold-text">abordagem fenomenológica</strong>: ao organizar elementos do seu sistema (família/relacionamentos), ela ajuda a tornar visíveis padrões que você não enxerga apenas "pensando".
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export default function ScienceSection() {
         <div className="fade-up grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {[
             "Padrões repetidos raramente mudam só com \"força de vontade\" porque são sustentados por lealdades emocionais e aprendizados familiares.",
-            "Quando você muda o seu lugar interno (limite, prioridade, merecimento), o sistema reage, e você precisa de estrutura para sustentar a mudança sem culpa.",
+            "Quando você muda o seu lugar interno (limite, prioridade, merecimento, responsabilidade), o sistema reage, e você adquire força para sustentar suas escolhas sem culpa.",
             "Em grupo, você aprende com o campo do outro: muitas vezes você vê o seu padrão refletido e isso acelera insights e integração.",
           ].map((text, i) => (
             <div key={i} className="card-dark card-hover">

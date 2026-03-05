@@ -4,7 +4,7 @@ const testimonials = [
   { text: "Eu destravei porque entendi que eu me sabotava quando as coisas iam dar certo, pra não 'ultrapassar' o meu pai que não conseguiu ter sucesso na vida. Por isso eu não me permitia ir mais longe.", name: "Érica F.", age: "45 anos" },
   { text: "Eu vivia cansada e vi durante minha Constelação que eu estava no lugar de 'salvar' todo mundo. Quando eu saí desse papel, a vida ficou mais simples e bem mais leve.", name: "Hedilene S.", age: "52 anos" },
   { text: "Eu parei de brigar tanto em casa porque vi que eu tava repetindo a mesma guerra que eu cresci vendo. Não era 'meu jeito', era padrão antigo herdado da minha avó e mãe.", name: "Denise T.", age: "51 anos" },
-  { text: "A Constelação foi uma virada de chave na minha vida porque entendi de onde vinha meu medo de ficar sozinha: eu tava presa numa história de abandono da família. Quando eu vi isso, eu parei de aceitar migalha.", name: "Renata C.", age: "48 anos" },
+  { text: "A Constelação foi uma virada de chave na minha vida porque entendi de onde vinha meu medo de ficar sozinha: eu estava presa numa história de abandono da família. Quando eu vi isso, eu parei de aceitar migalha.", name: "Renata C.", age: "48 anos" },
 ];
 
 export default function TestimonialsSection() {

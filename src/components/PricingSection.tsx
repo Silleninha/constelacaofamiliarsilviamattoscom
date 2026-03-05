@@ -19,8 +19,8 @@ export default function PricingSection() {
               <p className="font-body text-lg opacity-80">à vista</p>
               <p className="font-body text-base mt-2">ou <strong>12x de R$ 54,16</strong> no cartão</p>
 
-              <div className="bg-gold/10 rounded-lg p-4 mt-6 border border-gold/20">
-                <p className="font-body font-bold">⭐ GRATUITO PARA PARTICIPANTES QUE NÃO VÃO SER CONSTELADOS</p>
+              <div className="bg-gold/20 rounded-lg p-5 mt-6 border-2 border-gold/50 shadow-[0_0_20px_hsl(37,72%,47%,0.2)]">
+                <p className="font-body font-bold text-lg gold-text">⭐ GRATUITO PARA PARTICIPANTES QUE NÃO VÃO SER CONSTELADOS</p>
               </div>
 
               <p className="font-body text-sm mt-4 opacity-60">Economia de R$ 90,00 | Lote 1 válido apenas até 11/03/2026</p>

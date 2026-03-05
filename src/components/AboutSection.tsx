@@ -15,7 +15,7 @@ export default function AboutSection() {
 
           <div>
             <h3 className="font-serif text-3xl font-bold mb-2">Silvia Mattos</h3>
-            <p className="font-body terracotta-text font-bold mb-6">Facilitadora de Constelação Familiar Sistêmica</p>
+            <p className="font-body terracotta-text font-bold mb-6">Facilitadora de Constelação Familiar</p>
 
             <div className="space-y-4 font-body text-lg leading-relaxed">
               <p>Mentora sistêmica e terapeuta integrativa com mais de <strong>20 anos de experiência</strong> em ajudar mulheres a saírem do ciclo de culpa, invisibilidade e repetição emocional que sabota relacionamentos, autoestima e prosperidade.</p>
