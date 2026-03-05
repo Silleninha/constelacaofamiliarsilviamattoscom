@@ -74,7 +74,8 @@
 
 @layer components {
   .section-dark {
-    @apply bg-forest text-foreground;
+    @apply text-foreground;
+    background: radial-gradient(ellipse at 20% 50%, hsl(150 30% 20%), hsl(var(--forest)) 60%, hsl(var(--forest-deep)));
   }
 
   .section-cream {
