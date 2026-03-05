@@ -167,6 +167,20 @@
   }
 }
 
+@keyframes scrollWordsSlow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-words-slow {
+  white-space: nowrap;
+  animation: scrollWordsSlow 30s linear infinite;
+}
+
 @keyframes ctaShimmer {
   0% {
     left: -100%;

@@ -28,7 +28,7 @@ export default function ScienceSection() {
         <div className="fade-up grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {[
             "Padrões repetidos raramente mudam só com \"força de vontade\" porque são sustentados por lealdades emocionais e aprendizados familiares.",
-            "Quando você muda o seu lugar interno (limite, prioridade, merecimento), o sistema reage, e você precisa de estrutura para sustentar a mudança sem culpa.",
+            "Quando você muda o seu lugar interno (limite, prioridade, merecimento, responsabilidade), o sistema reage, e você adquire força para sustentar suas escolhas sem culpa.",
             "Em grupo, você aprende com o campo do outro: muitas vezes você vê o seu padrão refletido e isso acelera insights e integração.",
           ].map((text, i) => (
             <div key={i} className="card-dark card-hover">

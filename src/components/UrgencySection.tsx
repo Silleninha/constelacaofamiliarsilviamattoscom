@@ -35,11 +35,11 @@ export default function UrgencySection() {
           <p className="font-serif text-2xl font-bold mb-8 terracotta-text">
             Mas se você der esse passo agora, pode ser o começo de uma fase onde:
           </p>
-          <div className="space-y-3">
+          <div className="space-y-5">
             {ifYouAct.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 p-2">
-                <span className="terracotta-text text-lg">●</span>
-                <p className="font-body text-lg font-bold">{item}</p>
+              <div key={i} className="flex items-start gap-4 p-4 card-cream border border-gold/30 rounded-xl">
+                <span className="gold-text text-2xl">✦</span>
+                <p className="font-body text-xl md:text-2xl font-bold">{item}</p>
               </div>
             ))}
           </div>

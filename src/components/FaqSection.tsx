@@ -48,10 +48,10 @@ export default function FaqSection() {
         </div>
 
         <h3 className="fade-up font-serif text-2xl font-bold mb-8 text-foreground">Perguntas Práticas</h3>
-        <div className="fade-up space-y-4 mb-10">
+        <div className="fade-up grid md:grid-cols-2 gap-4 mb-10">
           {practicalFaqs.map((faq, i) => (
-            <div key={i}>
-              <p className="font-body font-bold text-foreground">{faq.q}</p>
+            <div key={i} className="card-dark rounded-xl p-5">
+              <p className="font-body font-bold text-foreground mb-1">{faq.q}</p>
               <p className="font-body text-foreground/70">{faq.a}</p>
             </div>
           ))}

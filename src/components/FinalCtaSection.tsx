@@ -2,7 +2,7 @@ export default function FinalCtaSection() {
   return (
     <section className="section-dark py-20 md:py-28 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5 pointer-events-none">
-        <div className="scroll-words text-8xl font-serif font-bold gold-text absolute bottom-10">
+        <div className="scroll-words-slow text-8xl font-serif font-bold gold-text absolute bottom-10">
           {"CULPA • PADRÃO • ANCESTRAL • LIBERAÇÃO • SISTEMA • LINHAGEM • PERTENCIMENTO • RAIZ • ".repeat(3)}
         </div>
       </div>

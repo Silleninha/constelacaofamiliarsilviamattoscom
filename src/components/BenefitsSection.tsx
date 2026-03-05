@@ -4,7 +4,7 @@ const benefits = [
   "Mais paz para decidir: fico, mudo, vou embora, recomeço — sem caos emocional",
   "Um novo jeito de se relacionar: menos \"mãe/salvadora/gerente emocional\", mais mulher presente",
   "Reconstrução das relações familiares com restabelecimento do fluxo de amor",
-  "Ferramentas para sustentar a mudança depois do encontro",
+  "Força e lucidez para sustentar a mudança depois do encontro",
 ];
 
 export default function BenefitsSection() {
