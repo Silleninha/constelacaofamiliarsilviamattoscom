@@ -47,7 +47,7 @@ export default function FaqSection() {
           {mainFaqs.map((faq, i) => <FaqItem key={i} {...faq} />)}
         </div>
 
-        <h3 className="fade-up font-serif text-2xl font-bold mb-8 text-foreground">Perguntas Práticas</h3>
+        <h3 className="fade-up font-serif text-2xl font-bold mb-8 gold-text text-center">Perguntas Práticas</h3>
         <div className="fade-up grid md:grid-cols-2 gap-4 mb-10">
           {practicalFaqs.map((faq, i) => (
             <div key={i} className="card-dark rounded-xl p-5">
