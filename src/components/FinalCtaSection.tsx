@@ -27,9 +27,9 @@ export default function FinalCtaSection() {
 
         <div className="fade-up">
           <a href="#preco" className="cta-button inline-block text-lg md:text-xl px-12 py-5">
-            SIM, QUERO SOLTAR ESSE PESO — GARANTIR MINHA VAGA
+            QUERO ME INSCREVER NO WORKSHOP
           </a>
-          <p className="font-body text-sm mt-4 text-foreground/50">Vagas limitadas</p>
+          <p className="font-body text-sm mt-4 text-foreground/70">Clique e em seguida escolha como vai querer participar: quer ser Constelada ou participar gratuitamente.</p>
         </div>
       </div>
     </section>
