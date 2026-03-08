@@ -1,6 +1,6 @@
 const signs = [
   { check: "Se sente responsável por todo mundo", insight: "Isso é amor... mas amor confundido com peso." },
-  { check: "Trava para cobrar/crescer", insight: "Talvez crescer pareça desleal com alguém da família." },
+  { check: "Tem relacionamentos que se repetem", insight: "O problema não é com quem você se relaciona. É o que você aprendeu que amor parece." },
   { check: "Culpa ao descansar", insight: "Você aprendeu que só merece quando sofre." },
   { check: "Precisa se provar para ser amada", insight: "Você tenta comprar pertencimento." },
   { check: "Medo de dar certo", insight: "O sucesso parece um rompimento com o clã." },
