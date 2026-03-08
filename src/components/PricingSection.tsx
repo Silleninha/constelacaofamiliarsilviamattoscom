@@ -23,7 +23,7 @@ export default function PricingSection() {
                 <p className="font-body font-bold text-lg gold-text">⭐ GRATUITO PARA PARTICIPANTES QUE NÃO VÃO SER CONSTELADOS</p>
               </div>
 
-              <p className="font-body text-sm mt-4 opacity-60">Economia de R$ 90,00 | Lote 1 válido apenas até 13/03/2026</p>
+              <p className="font-body text-sm mt-4 opacity-60"><p className="font-body text-sm mt-4 opacity-60">Economia de R$ 90,00 | Lote 1 válido apenas até 15/03/2026</p></p>
 
               <a href="#preco" className="cta-button inline-block w-full text-center mt-8">
                 SIM, QUERO GARANTIR MINHA VAGA
